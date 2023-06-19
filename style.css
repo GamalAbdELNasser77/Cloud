@@ -1,0 +1,54 @@
+.nav-item a,
+        .nav-item {
+            transition: all 1s;
+        }
+
+        .nav-item:hover a {
+            color: aqua;
+            background-color: gray;
+
+            border-radius: 10px;
+        }
+
+        .nav-item:hover {
+            border-radius: 10px;
+            border-top: 1px solid teal;
+
+        }
+
+        img {
+            height: 697px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .prodParent {
+            position: relative;
+        }
+
+        .prodOne {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 10px;
+            bottom: 0;
+        }
+
+        .circle {
+            position: absolute;
+            top: -71px;
+            right: -36px;
+        }
+
+        .btn {
+            background-color: lightblue;
+            color: brown;
+        }
+
+        .btn:hover {
+            background-color: moccasin;
+            color: teal;
+        }
+ 
